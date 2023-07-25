@@ -587,7 +587,7 @@ else
     BP.Name = math.random(10000,99999)
     BP.CFrame = CFrame.new(8784, -35, 3036)
     BP.Size = Vector3.new(9999,1,9999)
-    BP.Transparency = 0.5
+    BP.Transparency = 1
 
     local WebhookStatsLoop = coroutine.create(WebhookStats)
     coroutine.resume(WebhookStatsLoop)
